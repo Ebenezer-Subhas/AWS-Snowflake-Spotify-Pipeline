@@ -24,7 +24,7 @@ In this project, I have built an ETL(Extract, Transform, Load) pipeline using Sp
 
 ## Architecture
 
-![Architecture_ETL]()
+![Architecture_ETL](https://github.com/Ebenezer-Subhas/AWS-Snowflake-Spotify-Pipeline/blob/main/Spotify%20ETL%20pipeline%20using%20AWS%20and%20Snowflake.png)
 
 
 ## Project WorkFlow
@@ -42,8 +42,8 @@ Step 4: Once the storage integration is created. 3 snowflake tables are created 
 
 ## In a nutshell, Its execution flow is :
 Extract Data from Spotify API ----> Triggering Lambda Functions( Every 1 day) ----> Run the extract code ---->
-Store the raw data in S3 bucket ----> Trigger tranform function whenever new data is in S3 raw data bucket ---->
-Transform data and Load it in Snowflake Data Warehouse ----> Finding the insights about the Top songs in a playlist using SQL Queries. 
+Store the raw data in S3 bucket ----> Trigger transform function whenever new data is in S3 raw data bucket ---->
+Transform data and Load it in Snowflake Data Warehouse ----> Finding the insights about the Top songs in a playlist(free API) using SQL Queries. 
 
 ## Data Sources: 
 1. Spotify API developers account : https://developer.spotify.com/ , For access to the Spotify Playlists.
