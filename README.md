@@ -1,5 +1,5 @@
 # AWS-Snowflake-Spotify-Pipeline 
-In this project, I have built an ETL(Extract, Transform, Load) pipeline using Spotify API on AWS and Snowflake. The pipeline will retrieve data from Spotify API To Amazon s3 bucket, transform the data using lamda functions to a desired format, and load it into loaded into Snowflake Database using its Serverless feature called Snowpipe.
+In this project, I have built an ETL(Extract, Transform, Load) pipeline using Spotify API on AWS and Snowflake. The pipeline will retrieve data from Spotify API To Amazon s3 bucket, transform the data using lamda functions to a desired format using AWS lambda functions, and load it into Snowflake Database using its Serverless feature called Snowpipe.
 
 ## Serverless Services used in AWS and Snowflake:
 
